@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @import "tailwindcss";
+
+*{
+    font-family:Outfit;
+}
+.active hr {
+    @apply block;       /* It is targeting an <hr> element inside any element with the class .active
+                       It is applying the Tailwind utility class block to that <hr>
+                       The block class in Tailwind forces the <hr> to behave as a block-level element, making it take the full width and start on a new line */
+}
+
+::-webkit-scrollbar{
+    @apply hidden       /* Hide the scroll bar wherever its there */
+}
