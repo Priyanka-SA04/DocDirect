@@ -25,7 +25,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink to='/contact'>
                 <li className='py-1'>CONTACT</li>
-                <hr className='border-none outline-none h-0.5 bg-indigo-500 w-3/5 m- hidden '/>
+                <hr className='border-none outline-none h-0.5 bg-indigo-500 w-3/5 m-auto hidden '/>
             </NavLink>
 
         </ul>
