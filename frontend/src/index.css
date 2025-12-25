@@ -14,3 +14,9 @@
 ::-webkit-scrollbar{
     @apply hidden       /* Hide the scroll bar wherever its there */
 }
+
+@media (max-width:740px){
+    .active p{
+        @apply text-white bg-indigo-500
+    }
+}
